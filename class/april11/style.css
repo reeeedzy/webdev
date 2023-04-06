@@ -1,1 +1,14 @@
+/*This is the start of CSS Grid which was started in class on April 6th*/
 @charset "utf-8";
+#wrapper {
+  display: grid;
+  grid-template-columns: 160px 1fr 160px;
+  grid-template-rows: 200px auto 100px;
+}
+header {
+  grid-row: 1/2;
+  grid-column: 1/4;
+}
+nav {
+  grid-row: 2/3;
+}
