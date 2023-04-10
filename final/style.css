@@ -1,1 +1,28 @@
 @charset "utf-8";
+/*CSS Doc*/
+/*.button {
+  background-color: #1c87c9;
+  border: none;
+  color: white;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}*/
+header {
+  background-image: url(asset1.png);
+  height: 200px;
+  background-repeat: no-repeat;
+}
+footer {
+  font-size: 0.7em;
+  font-style: italic;
+  text-align: center;
+  padding: 1em;
+}
+#flexx {
+  w
+}
