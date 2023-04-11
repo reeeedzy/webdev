@@ -12,28 +12,37 @@
   margin: 4px 2px;
   cursor: pointer;
 }*/
-footer {
-  font-size: 0.7em;
-  font-style: italic;
-  text-align: center;
-  padding: 1em;
-}
 #wrapper {
   width: 60%;
   margin: auto;
-  background: #c0c0c0;
+  background: white;
   color: #300;
 }
 #flexx {
   display: flex;
   flex-direction: column;
 }
-header img {
+header,
+h1,
+#wrapper {
+  margin-top: 0;
+}
+#logo {
+}
+header {
+  margin: 0;
+  background-image: url(shadyoakskitchen4.jpg);
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+h1 img {
   width: 100%;
-  padding: 0;
+  object-fit: cover;
 }
 nav {
-  background: rgb(43, 43, 43);
+  background: #eeeeee;
+  padding: 1em;
+  margin: 0;
 }
 nav ul {
   list-style-type: none;
@@ -43,19 +52,31 @@ nav ul {
 }
 nav li {
   display: inline;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 200%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 150%;
 }
 nav a {
   text-decoration: none;
   padding: 1%;
 }
 nav a:link {
-  color: #300;
+  color: black;
 }
 nav a:visited {
-  color: rgb(255, 255, 255);
+  color: rgb(58, 58, 58);
 }
 nav a:hover {
-  color: rgb(70, 8, 8);
+  color: #89001e;
+}
+body {
+  background: #eeeeee;
+}
+main {
+  padding: 1em;
+}
+footer {
+  font-size: 0.7em;
+  font-style: italic;
+  text-align: center;
+  padding: 1em;
 }
