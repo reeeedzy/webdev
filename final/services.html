@@ -6,26 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Turner Builders, Inc.</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="wrapper">
-      <header>
-        <img src="asset1.png" alt="TBI Logo" />
-      </header>
       <div id="flexx">
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Our Services</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-        </nav>
-        <footer>
-          &copy; 2023 by Turner Builders, Inc. Created by Reed Turner
-        </footer>
+        <header>
+          <a href="index.html"><img src="asset1.png" alt="TBI Logo" /></a>
+          <nav>
+            <ul>
+              <li><a class="btn" href="index.html">Home</a></li>
+              <li><a class="btn" href="services.html">Services</a></li>
+              <li><a class="btn" href="portfolio.html">Portfolio</a></li>
+              <li><a class="btn" href="about.html">About</a></li>
+              <li><a class="btn" href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+          <aside id="serviceaside">
+            <h1 class="serviceh1r">Additions</h1>
+            <a href="bathafter.jpeg"
+              ><img
+                class="servicepicsr"
+                src="bathafter.jpeg"
+                alt="Bath addition"
+            /></a>
+            <p class="servicecapr">
+              Looking to add a bathroom? We can handle that!
+            </p>
+            <h1 class="serviceh1r">Home Repairs</h1>
+            <a href="idk.JPG"
+              ><img class="servicepicsr" src="idk.JPG" alt="Home Repairs"
+            /></a>
+            <p class="servicecapr">Can't fix it yourself? Give us a call!</p>
+          </aside>
+          <div id="leftserve">
+            <h1 class="serviceh1">Remodels</h1>
+            <a href="shadyoakskitchen2.jpg"
+              ><img
+                class="servicepics"
+                src="shadyoakskitchen2.jpg"
+                alt="Kitchen Remodel"
+            /></a>
+            <p class="servicecap">
+              Can't stand that ugly kitchen? Let us remodel it!
+            </p>
+            <h1 class="serviceh1">Custom Homes</h1>
+            <a href="smithranch3.JPG"
+              ><img
+                class="servicepics"
+                src="smithranch3.JPG"
+                alt="Smith Ranch custom home"
+            /></a>
+            <p class="servicecap">
+              Dreaming of your perfect home? Let us build it!
+            </p>
+          </div>
+        </main>
       </div>
+      <footer>
+        &copy; 2023 by Turner Builders, Inc. Created by Reed Turner for a UTA
+        school project.
+      </footer>
     </div>
   </body>
 </html>
