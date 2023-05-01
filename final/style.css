@@ -372,6 +372,12 @@ footer {
   #map {
     display: none;
   }
+  .gallery .box .dream img {
+    height: auto;
+  }
+  #abouth1 {
+    display: none;
+  }
 }
 @media only screen and (max-width: 1600px) {
   #wrapper {
