@@ -340,3 +340,8 @@ div.desc {
     display: none;
   }
 }
+@media only screen and (max-width: 1600px) {
+  #wrapper {
+    width: 90%;
+  }
+}
