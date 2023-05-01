@@ -253,7 +253,7 @@ div.gallery {
   height: 180px;
   background-image: url(hexdark.webp);
   border-radius: 8px;
-  margin-left: 1%;
+  margin-left: 1.5%;
 }
 
 div.gallery:hover {
@@ -316,10 +316,6 @@ div.desc {
   }
 }
 @media only screen and (max-width: 1024px) {
-  #wrapper {
-    width: auto;
-    margin: 0;
-  }
   #flexx {
     flex-direction: column;
   }
@@ -329,9 +325,10 @@ div.desc {
     margin: auto;
   }
   aside img {
-    margin-top: 90px;
+    margin-top: 115px;
     width: auto;
-    height: 400px;
+    height: 350px;
+    border-radius: 25%;
   }
   .servicepicsr {
     display: none;
@@ -339,9 +336,23 @@ div.desc {
   .servicepics {
     display: none;
   }
+  #map {
+    display: none;
+  }
 }
 @media only screen and (max-width: 1600px) {
   #wrapper {
-    width: 90%;
+    width: 100%;
+    margin: 0;
+  }
+  .servicepics {
+    height: 400px;
+    width: 500px;
+    border-radius: 10%;
+  }
+  .servicepicsr {
+    height: 400px;
+    width: 500px;
+    border-radius: 10%;
   }
 }
