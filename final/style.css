@@ -158,7 +158,7 @@
   transform: scale(1.1);
 }
 #more:hover {
-  color: #920b36;
+  color: #ed1257;
 }
 .btn {
   font-family: "Roboto", sans-serif;
@@ -277,7 +277,7 @@ nav a:visited {
   color: #969696;
 }
 nav a:hover {
-  color: #920b36;
+  color: #ed1257;
 }
 body {
   background-color: #ffffff;
